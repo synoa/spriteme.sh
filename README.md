@@ -22,7 +22,7 @@ Now edit your `bashrc` (or similar) and add the directory to your `PATH` (if it 
 ```sh
 export PATH="$PATH:$HOME/apps/sh"
 ```
-Make sure to exclude the `$PATH` variable when exporting, otherwise **ONLY** the apps/sh will be in
+Make sure to include the `$PATH` variable when exporting, otherwise **ONLY** the apps/sh will be in
 your `PATH`!
 
 ### Usage
